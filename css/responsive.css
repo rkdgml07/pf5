@@ -1,0 +1,163 @@
+@media screen and (max-width:768px){
+/*  header  */
+  header div.header nav ul.gnb li a {
+  display: none;
+  }
+/*  title  */
+  section#title {
+    padding: 0 20px;
+  }
+  section#title div.flex {
+  justify-content: initial;
+  }
+  section#title div.flex img:nth-child(1) {
+  width: 619px;
+  background-size: contain;
+  }
+  section#title div.flex img:nth-child(2) {
+  width: 122px;
+  height: 105px;
+  background-size: contain;
+  }
+/*  event  */
+  section#event div.eventAni .slick-next {
+  right: 6%;
+  }
+  section#event div.eventAni .slick-prev {
+    left: 6%;
+  }
+/*  hot  */
+  section#hot {
+    padding: 0 20px;
+  }
+  section#hot div.wrap {
+    
+  width: 768px;
+  margin-top: 100px;
+  }
+  section#hot div div.text {
+    
+  }
+  section#hot div div.text h2 {
+    
+  }
+  section#hot div div.text a {
+    
+  right: 58px;
+  }
+/*  app  */
+  section#app {
+    margin-top: 100px;
+    
+    padding: 0 20px;
+  }
+  section#app div h2 {
+    font-size: 25px;
+  }
+  section#app div button {
+  width: 151px;
+  height: 43px;
+  }
+  section#app div button::before {
+  right: 168px;
+  bottom: -106px;
+  width: 138px;
+  height: 130px;
+  background-size: contain;
+  }
+/*  need  */
+  section#need {
+  margin-top: 100px;
+  padding: 0 20px;
+  margin-bottom: 100px;
+  }
+  section#need div.all div.left h2 {
+    font-size: 25px;
+  }
+  section#need div.all div.left p {
+    font-size: 15px;
+  }
+  section#need div.all div.left {
+  width: 472px;
+  }
+  section#need div.all div.left input {
+  font-size: 15px;
+  }
+  section#need div.all div.left img {
+  top: 138px;
+  left: 242px;
+  }
+  section#need div.all div.right a {
+    
+  font-size: 15px !important;
+  height: 63px;
+  width: 143px;
+  }
+  section#need div.all div.right a:nth-child(1) {
+    
+  left: -33px;
+  top: -44px;
+  }
+  section#need div.all div.right a:nth-child(2) {
+    
+  left: -1px;
+  top: 47px;
+  }
+  section#need div.all div.right a:nth-child(3) {
+    
+  left: 28px;
+  bottom: -32px;
+  width: 143px;
+  }
+  section#need div.all div.right a:nth-child(4) {
+  left: 48%;
+  top: 178px;
+  }
+  section#need div.all div.right a:nth-child(5) {
+  right: 39px;
+  top: -22px;
+  }
+  section#need div.all div.right a:nth-child(6) {
+  right: 62px;
+  bottom: 32px;
+  width: 143px;
+  }
+/*  banner  */
+  section#banner {
+    
+  padding: 0 20px;
+  }
+  section#banner div.info {
+  display: initial;
+  }
+  section#banner div.info a {
+  width: 725px !important;
+  }
+  section#banner div.info div.info_1 a {
+    margin-bottom: 20px;
+    
+  }
+/*  search  */
+  section#search {
+    display: none;
+  }
+/*  story  */
+  section#story {
+    display: none;
+  }
+/*  footer  */
+  footer #footer {
+    display: none;
+  }
+  section#cuslide div.cuAni div h2 {
+    
+  top: 169px !important;
+  left: -8px;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  
+}
